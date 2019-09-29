@@ -40,6 +40,7 @@ app.get('/auth/logout', authCtrl.logout)
 
 //Treasure Endponts
 app.get('/api/treasure/dragon', treasureCtrl.dragonTreasure)
+app.get('/api/treasure/user', treasureCtrl.getUserTreasure)
 
 //listen
 

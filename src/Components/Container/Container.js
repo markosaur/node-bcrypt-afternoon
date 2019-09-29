@@ -28,7 +28,7 @@ export default class Container extends Component {
         dragon: result.data 
         }
       })
-    })
+    }).catch(err => console.log(err))
   }
 
   getAllTreasure() {
